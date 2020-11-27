@@ -1,7 +1,7 @@
 import React from 'react';
 import Week1 from './components/Week1';
 import Week2 from './components/Week2';
-import Week3 from './components/Week2';
+import Week3 from './components/Week3';
 
 import {
     BrowserRouter as Router,
