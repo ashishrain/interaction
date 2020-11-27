@@ -11,3 +11,6 @@
 ## Week 2
 - Deploying - GitHub pages
 - Routing
+
+## Week 3
+- Creating buttons
