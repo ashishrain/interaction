@@ -26,7 +26,7 @@ const Homepage = () => (
                 <Link to="/week-3"><h2>Week 3</h2></Link>
             </li>
             <li>
-                <link to="/week-4"><h2>Week 4</h2></link>
+                <Link to="/week-4"><h2>Week 4</h2></Link>
             </li>
         </ul>
     </nav>

@@ -21,7 +21,7 @@ const StyledWrapper = styled.div`
 `;
 
 const StyledHeader = styled.h1`
-    color: #1e57f1;
+    color: #e64b5f;
     margin-left: 2rem;
 `;
 
@@ -48,14 +48,14 @@ const StyledErrorText = styled.p`
 const StyledButton = styled.button`
     height: 63px;
     width: 350px;
-    background: #1e57f1;
+    background: #e64b5f;
     color: #ffffff;
     text-align: center;
     font-size: 18px;
     border: 0;
     cursor: pointer;
     &:hover {
-        background: red;
+        opacity: 0.7;
     }
 `;
 
@@ -76,14 +76,14 @@ const Week4 = () => {
     return (
         <StyledWrapper>
             <img src={runner} />
-            <StyledHeader>Sally</StyledHeader>
+            <StyledHeader>Runday</StyledHeader>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <p>
                     <StyledInput type="text" name="email" placeholder="Email" ref={register()} />
                 </p>
                 <StyledErrorText>{errors.email?.message}</StyledErrorText>
                 <p>
-                    <StyledInput type={showPassword ? "text" : "password"} name="password" ref={register()} />
+                    <StyledInput type={showPassword ? "text" : "password"} name="password" placeholder="Password" ref={register()} />
                     <StyledIcon src={showPassword ? hideIcon : showIcon} onClick={handleClick}></StyledIcon>
                     <StyledErrorText>{errors.password?.message}</StyledErrorText>
                 </p>
