@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
-import runner from './assets/runner.png';
+import profile from './assets/profile.png';
 import hideIcon from './assets/hide.svg';
 import showIcon from './assets/unhide.svg';
 import { useForm } from 'react-hook-form';
@@ -21,7 +21,7 @@ const StyledWrapper = styled.div`
 `;
 
 const StyledHeader = styled.h1`
-    color: #e64b5f;
+    color: #C332AB;
     margin-left: 2rem;
 `;
 
@@ -48,14 +48,14 @@ const StyledErrorText = styled.p`
 const StyledButton = styled.button`
     height: 63px;
     width: 350px;
-    background: #e64b5f;
+    background: #C332AB;
     color: #ffffff;
     text-align: center;
     font-size: 18px;
     border: 0;
     cursor: pointer;
     &:hover {
-        opacity: 0.7;
+        background: #E791FE;
     }
 `;
 
@@ -75,8 +75,8 @@ const Week4 = () => {
 
     return (
         <StyledWrapper>
-            <img src={runner} />
-            <StyledHeader>Runday</StyledHeader>
+            <img src={profile} />
+            <StyledHeader>PGaming</StyledHeader>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <p>
                     <StyledInput type="text" name="email" placeholder="Email" ref={register()} />
