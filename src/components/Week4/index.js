@@ -22,7 +22,6 @@ const StyledWrapper = styled.div`
 
 const StyledHeader = styled.h1`
     color: #C332AB;
-    margin-left: 2rem;
 `;
 
 const StyledInput = styled.input`
